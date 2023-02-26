@@ -27,20 +27,20 @@ optional arguments:
   --save_folder SAVE_FOLDER
                         folder in which you eant to save your execution
   --n_act N_ACT         number of action for each agent
-```
+
 
 To run the code, according to the specific example provided in this folder type:
 
-- Train
+- __Train__
 
 ```
-python main_marl.py --agents_file aaa.csv --train_flag train --save_folder training_agents --n_act 1
+python main_marl.py --agents_file agents_48_45_39_34_28_25_11_germany.csv.csv --train_flag train --save_folder training_agents --n_act 1
 ```
 
-- Test
+- __Test__
 
 ```
-python main_marl.py --agents_file aaa.csv --train_flag test --save_folder training_agents --n_act 1
+python main_marl.py --agents_file agents_48_45_39_34_28_25_11_germany.csv.csv --train_flag test --save_folder training_agents --n_act 1
 ```
 
 
