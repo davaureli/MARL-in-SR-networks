@@ -10,6 +10,8 @@ To know all the arguments in the code:
 
 ```
 python main_marl.py --help
+```
+It returns the following list:
 
 usage: main_marl.py [-h] [--netw NETW] [--agents_file AGENTS_FILE]
                     [--train_flag TRAIN_FLAG] [--save_folder SAVE_FOLDER]
@@ -26,4 +28,19 @@ optional arguments:
                         folder in which you eant to save your execution
   --n_act N_ACT         number of action for each agent
 ```
+
+To run the code, according to the specific example provided in this folder type:
+
+- Train
+
+```
+python main_marl.py --agents_file aaa.csv --train_flag train --save_folder training_agents --n_act 1
+```
+
+- Test
+
+```
+python main_marl.py --agents_file aaa.csv --train_flag test --save_folder training_agents --n_act 1
+```
+
 
