@@ -13,6 +13,7 @@ python main_marl.py --help
 ```
 It returns the following list:
 
+```
 usage: main_marl.py [-h] [--netw NETW] [--agents_file AGENTS_FILE]
                     [--train_flag TRAIN_FLAG] [--save_folder SAVE_FOLDER]
                     [--n_act N_ACT]
@@ -28,6 +29,7 @@ optional arguments:
                         folder in which you eant to save your execution
   --n_act N_ACT         number of action for each agent
 
+```
 
 To run the code, according to the specific example provided in this folder type:
 
@@ -42,5 +44,7 @@ python main_marl.py --agents_file agents_48_45_39_34_28_25_11_germany.csv.csv --
 ```
 python main_marl.py --agents_file agents_48_45_39_34_28_25_11_germany.csv.csv --train_flag test --save_folder training_agents --n_act 1
 ```
+
+Changing the hyperparameters listed within the .csv file the user can test different agents configuration.
 
 
