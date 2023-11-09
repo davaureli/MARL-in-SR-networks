@@ -47,4 +47,7 @@ python main_marl.py --agents_file agents_48_45_39_34_28_25_11_germany.csv.csv --
 
 Changing the hyperparameters listed within the .csv file the user can test different agents configuration.
 
+#### Published Work:
+
+A. Cianfrani, D. Aureli, M. Listanti and M. Polverini, "Multi Agent Reinforcement Learning Based Local Routing Strategy to Reduce End-to-End Delays in Segment Routing Networks," IEEE INFOCOM 2023 - IEEE Conference on Computer Communications Workshops (INFOCOM WKSHPS), Hoboken, NJ, USA, 2023, pp. 1-6, doi: 10.1109/INFOCOMWKSHPS57453.2023.10225785.
 
